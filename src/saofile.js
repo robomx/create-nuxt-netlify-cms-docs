@@ -20,7 +20,7 @@ module.exports = {
         {
           name: 'github',
           message: 'GitHub repository (owner/name):',
-          default: 'nuxt/content'
+          default: 'RoboMx/create-nuxt-netlify-cms-docs'
         },
         {
           name: 'twitter',
