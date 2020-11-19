@@ -7,10 +7,6 @@ A base template to create a documentation website using Nuxt.js framework with N
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/MexsonFernandes/nuxt-netlify-doc)
 
-## Screenshot
-
-<img src="static/screenshot.jpeg" alt="Screenshot 1" />
-
 ## References
 
 * [Netlify CMS documentation](https://www.netlifycms.org/docs/nuxt/)
