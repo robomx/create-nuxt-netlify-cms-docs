@@ -1,0 +1,22 @@
+{
+    "name": "create-nuxt-netlify-cms-docs-",
+    "version": "0.2020.0",
+    "files": [
+        "src",
+        "template"
+    ],
+    "author": "RoboMx",
+    "description": "Write your documentation with Nuxt content module and Netlify CMS panel.",
+    "license": "MIT",
+    "contributors": [{
+        "name": "RoboMx Team"
+    }],
+    "bin": "src/cli.js",
+    "dependencies": {
+        "cac": "^6.6.1",
+        "sao": "^1.7.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

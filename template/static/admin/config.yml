@@ -1,0 +1,98 @@
+publish_mode: editorial_workflow
+media_folder: static/images
+public_folder: /images
+
+backend:
+  name: git-gateway
+  branch: main
+  repo: MexsonFernandes/nuxt-netlify-doc
+  open_authoring: true
+
+i18n:
+  structure: multiple_folders
+  locales: [en, pt, fr]
+  default_locale: en
+
+collections:
+  - name: config
+    label: Configurations
+    files:
+      - label: Nuxt Settings
+        name: nuxt
+        file: content/settings.json
+        extension: json
+        fields:
+          - widget: string
+            name: title
+            label: Title
+            required: true
+            hint: >-
+              The title of the doc
+          - widget: string
+            name: url
+            label: Website Link
+            required: true
+          - widget: string
+            name: github
+            label: Github Link
+            required: true
+          - widget: string
+            name: twitter
+            label: Twitter Link
+            required: true
+          - label: Logo
+            name: logo
+            widget: object
+            collapsed: true
+            fields: 
+              - {label: Dark Logo, name: dark, widget: "string"}
+              - {label: Light Logo, name: light, widget: "string"}
+  - name: docs
+    label: Docs
+    folder: content/
+    create: true
+    extension: md
+    i18n: true
+    slug: '{{slug}}'
+    fields:
+        - widget: string
+          name: title
+          label: Title
+          required: true
+          i18n: true
+          hint: >-
+            The title of the page that will appear in the left hand navigation
+        - widget: number
+          name: position
+          label: Position
+          required: false
+          i18n: true
+          hint: >-
+            The navigation order of the page.
+        - widget: string
+          name: category
+          label: category
+          i18n: true
+          required: false
+          hint: >-
+            A category is set on left hand side of the doc.
+        - widget: boolean
+          name: bookToc
+          label: Table of Contents
+          required: false
+          i18n: true
+          hint: >-
+            If false, the right hand table of contents will not show. Defaults to true if empty.
+        - widget: boolean
+          name: bookHidden
+          label: Hidden?
+          i18n: true
+          required: false
+          hint: >-
+            If true, the page will not list on the left hand navigation
+        - widget: markdown
+          name: body
+          label: Content
+          i18n: true
+          required: true
+          hint: Page content
