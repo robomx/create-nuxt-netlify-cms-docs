@@ -17,7 +17,7 @@ test('should write files with good answers (GitHub)', async () => {
 
   expect(JSON.parse(pkg)).toEqual(expect.objectContaining({
     name: 'create-nuxt-netlify-cms-docs',
-    version: '0.2020.0',
+    version: '2020.0.0',
     private: true
   }))
 })

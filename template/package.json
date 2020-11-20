@@ -1,6 +1,6 @@
 {
   "name": "<%= name %>",
-  "version": "0.2020.0",
+  "version": "2020.0.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
