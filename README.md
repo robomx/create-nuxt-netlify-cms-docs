@@ -33,6 +33,10 @@ Or starting with npm v6.1 you can do:
 npm init nuxt-netlify-cms-docs <project-name>
 ```
 
+## Adding to existing project
+
+Use above command in the root of the project with `docs` as project name.
+
 ## References
 
 1. [Create Nuxt Content doc](https://github.com/nuxt/content/blob/dev/packages/create-nuxt-netlify-cms-docs)
