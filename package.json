@@ -6,7 +6,10 @@
         "template"
     ],
     "author": "RoboMx",
-    "repository": "https://github.com/RoboMx/create-nuxt-netlify-cms-docs",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RoboMx/create-nuxt-netlify-cms-docs.git"
+    },
     "description": "Write your documentation with Nuxt content module and Netlify CMS panel.",
     "license": "MIT",
     "contributors": [{
@@ -22,8 +25,8 @@
     },
     "keywords": [
         "docs",
-        "nuxtjs docs",
-        "netlify-cms docs",
-        "nuxtjs netlify cms docs"
+        "nuxt docs template",
+        "netlify-cms docs template",
+        "nuxt netlify cms docs"
     ]
 }
