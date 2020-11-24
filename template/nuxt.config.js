@@ -29,7 +29,7 @@ export default theme({
   },
   pwa: {
     manifest: {
-      name: 'Nuxt Netlify CMS',
+      name: '<%= title %>',
     },
   },
 })
