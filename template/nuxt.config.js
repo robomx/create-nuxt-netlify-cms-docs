@@ -13,12 +13,6 @@ export default theme({
         name: 'Français',
       },
       {
-        code: 'pt',
-        iso: 'pt-PT',
-        file: 'pt-PT.js',
-        name: 'Português',
-      },
-      {
         code: 'en',
         iso: 'en-US',
         file: 'en-US.js',

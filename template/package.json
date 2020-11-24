@@ -1,5 +1,6 @@
 {
   "name": "<%= name %>",
+  "description": "<%= title %>",
   "version": "2020.0.0",
   "private": true,
   "scripts": {
