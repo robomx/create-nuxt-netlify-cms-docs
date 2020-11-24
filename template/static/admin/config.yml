@@ -6,7 +6,15 @@ backend:
   name: git-gateway
   branch: main
   repo: <%= github %>
+  url: <%= url %>
   open_authoring: true
+  commit_messages:
+    create: ":sparkles: Create {{collection}} “{{slug}}”"
+    update: ":hammer: Update {{collection}} “{{slug}}”"
+    delete: ":fire: Delete {{collection}} “{{slug}}”"
+    uploadMedia: "[skip ci] :sparkles: Upload “{{path}}”"
+    deleteMedia: "[skip ci] :fire: Delete “{{path}}”"
+
 
 i18n:
   structure: multiple_folders

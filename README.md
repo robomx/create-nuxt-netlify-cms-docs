@@ -10,8 +10,8 @@
 
 ## Screenshot
 
-<img src="assets/nuxt-tailwind.png" alt="Nuxt Tailwind Docs" />
-<img src="assets/netlify-cms.jpeg" alt="Netlify CMS" />
+<img src="https://github.com/RoboMx/create-nuxt-netlify-cms-docs/blob/master/assets/nuxt-tailwind.png?raw=true" alt="Nuxt Tailwind Docs" />
+<img src="https://raw.githubusercontent.com/RoboMx/create-nuxt-netlify-cms-docs/master/assets/netlify-cms.jpeg?raw=true" alt="Netlify CMS" />
 
 ## Usage
 
