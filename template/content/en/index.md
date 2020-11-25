@@ -14,7 +14,7 @@ features:
 <img src="/images/logo-light.png" class="light-img" width="1280" height="640" alt=""/>
 <img src="/images/logo-dark.png" class="dark-img" width="1280" height="640" alt=""/>
 
-Template for [NuxtJS/NetlifyCMS Doc](https://github.com/MexsonFernandes/nuxt-netlify-doc).
+Template for [<%= name %>](https://github.com/<%= github %>).
 
 <alert type="success">
 

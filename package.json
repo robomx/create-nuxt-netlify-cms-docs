@@ -1,6 +1,6 @@
 {
     "name": "create-nuxt-netlify-cms-docs",
-    "version": "2020.0.0",
+    "version": "2020.1.0",
     "files": [
         "src",
         "template"

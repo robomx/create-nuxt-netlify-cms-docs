@@ -11,6 +11,7 @@
 
 1. Netlify Login Widget
 2. Beautiful commit messages
+3. Deploy to Netlify with a button (in readme)
 
 ## `v2020.0.0 Neonate`
 

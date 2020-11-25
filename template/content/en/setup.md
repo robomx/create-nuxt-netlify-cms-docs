@@ -11,11 +11,11 @@ It's easy to start with your first doc.
 
 Use single-click deploy button from Netlify.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/MexsonFernandes/nuxt-netlify-doc)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/<%= github %>)
 
 ## Set custom repo
 
-[Fork](https://github.com/MexsonFernandes/nuxt-netlify-doc) the repo.
+[Fork](https://github.com/<%= github %>) the repo.
 
 Then, clone it:
 

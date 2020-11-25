@@ -9,11 +9,11 @@ Il est facile de commencer avec votre premier document.
 
 Utilisez le bouton de déploiement en un seul clic de Netlify.
 
-[![Déployer sur Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/MexsonFernandes/nuxt-netlify-doc)
+[![Déployer sur Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/<%= github %>)
 
 ## Définir un dépôt personnalisé
 
-[Fork](https://github.com/MexsonFernandes/nuxt-netlify-doc) le dépôt.
+[Fork](https://github.com/<%= github %>) le dépôt.
 
 Ensuite, clonez-le:
 
