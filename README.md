@@ -1,5 +1,5 @@
 <div align="center">
-  <img src ="https://github.com/anshcena/my-image-hosting-spot/blob/main/IMAGE_DIRECTORY/nuxt_netlify-cms-docs.png?raw=true" width="1000" />
+  <img src ="https://github.com/anshcena/my-image-hosting-spot/blob/main/IMAGE_DIR/@nuxtnetlify-cms-docs.png?raw=true" width="1000" />
   </div>
   
 # @nuxt/netlify-cms-docs
